@@ -1,0 +1,195 @@
+Microsoft Windows [versão 10.0.10240]
+(c) 2015 Microsoft Corporation. Todos os direitos reservados.
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>dir
+ O volume na unidade D não tem nome.
+ O Número de Série do Volume é 1AFF-522C
+
+ Pasta de D:\MEUS SISTEMAS\ANGULAR\Primeiro
+
+03/11/2015  20:05    <DIR>          .
+03/11/2015  20:05    <DIR>          ..
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (Primeiro) Primeiro
+Primeiro
+Sorry, name can no longer contain capital letters.
+name: (Primeiro)
+Sorry, name can no longer contain capital letters.
+name: (Primeiro) ppp
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\MEUS SISTEMAS\ANGULAR\Primeiro\package.json:
+
+{
+  "name": "ppp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>npm install -g bower
+C:\Users\Vinic\AppData\Roaming\npm\bower -> C:\Users\Vinic\AppData\Roaming\npm\node_modules\bower\bin\bower
+bower@1.6.5 C:\Users\Vinic\AppData\Roaming\npm\node_modules\bower
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower init
+? May bower anonymously report usage statistics to improve the tool over time? (Y/n) y
+? May bower anonymously report usage statistics to improve the tool over time? Yes
+? name ppp
+? description
+? main file index.js
+? what types of modules does this package expose? (Press <space> to select)
+? what types of modules does this package expose?
+? keywords
+? authors
+? license ISC
+? homepage
+? set currently installed components as dependencies? Yes
+? add commonly ignored files to ignore list? Yes
+? would you like to mark this package as private which prevents it from being accidentally published to the registry? No
+
+{
+  name: 'ppp',
+  description: '',
+  main: 'index.js',
+  license: 'ISC',
+  moduleType: [],
+  homepage: '',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ]
+}
+
+? Looks good? Yes
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular --save
+bower angular#*             not-cached git://github.com/angular/bower-angular.git#*
+bower angular#*                resolve git://github.com/angular/bower-angular.git#*
+bower angular#*                ECMDERR Failed to execute "git ls-remote --tags --heads git://github.com/angular/bower-angular.git", exit code of #128 fatal: unable to connect to github.com:
+ github.com[0: 192.30.252.129]: errno=No such file or directory
+
+Additional error details:
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.129]: errno=No such file or directory
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular --save
+bower angular#*             not-cached git://github.com/angular/bower-angular.git#*
+bower angular#*                resolve git://github.com/angular/bower-angular.git#*
+bower angular#*                ECMDERR Failed to execute "git ls-remote --tags --heads git://github.com/angular/bower-angular.git", exit code of #128 fatal: unable to connect to github.com:
+ github.com[0: 192.30.252.128]: errno=No such file or directory
+
+Additional error details:
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.128]: errno=No such file or directory
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular --save
+bower angular#*             not-cached git://github.com/angular/bower-angular.git#*
+bower angular#*                resolve git://github.com/angular/bower-angular.git#*
+bower angular#*               download https://github.com/angular/bower-angular/archive/v1.4.7.tar.gz
+bower angular#*                extract archive.tar.gz
+bower angular#*               resolved git://github.com/angular/bower-angular.git#1.4.7
+bower angular#~1.4.7           install angular#1.4.7
+
+angular#1.4.7 bower_components\angular
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install bootstrap --save
+bower bootstrap#*           not-cached git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*              resolve git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*              ECMDERR Failed to execute "git ls-remote --tags --heads git://github.com/twbs/bootstrap.git", exit code of #128 fatal: unable to connect to github.com: github
+.com[0: 192.30.252.129]: errno=No such file or directory
+
+Additional error details:
+fatal: unable to connect to github.com:
+github.com[0: 192.30.252.129]: errno=No such file or directory
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>git config --global url."https://".insteadOf git://
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install bootstrap --save
+bower bootstrap#*           not-cached git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*              resolve git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*             download https://github.com/twbs/bootstrap/archive/v3.3.5.tar.gz
+bower bootstrap#*              extract archive.tar.gz
+bower bootstrap#*             resolved git://github.com/twbs/bootstrap.git#3.3.5
+bower                            retry Request to https://bower.herokuapp.com/packages/jquery failed with ETIMEDOUT, retrying in 1.1s
+bower jquery#>= 1.9.1       not-cached git://github.com/jquery/jquery.git#>= 1.9.1
+bower jquery#>= 1.9.1          resolve git://github.com/jquery/jquery.git#>= 1.9.1
+bower jquery#>= 1.9.1         download https://github.com/jquery/jquery/archive/2.1.4.tar.gz
+bower jquery#>= 1.9.1          extract archive.tar.gz
+bower jquery#>= 1.9.1         resolved git://github.com/jquery/jquery.git#2.1.4
+bower bootstrap#~3.3.5         install bootstrap#3.3.5
+bower jquery#>= 1.9.1          install jquery#2.1.4
+
+bootstrap#3.3.5 bower_components\bootstrap
++-- jquery#2.1.4
+
+jquery#2.1.4 bower_components\jquery
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install font-awesome --save
+bower font-awesome#*        not-cached git://github.com/FortAwesome/Font-Awesome.git#*
+bower font-awesome#*           resolve git://github.com/FortAwesome/Font-Awesome.git#*
+bower font-awesome#*          download https://github.com/FortAwesome/Font-Awesome/archive/v4.4.0.tar.gz
+bower font-awesome#*           extract archive.tar.gz
+bower font-awesome#*          resolved git://github.com/FortAwesome/Font-Awesome.git#4.4.0
+bower font-awesome#~4.4.0      install font-awesome#4.4.0
+
+font-awesome#4.4.0 bower_components\font-awesome
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular-massages --save
+bower                        ENOTFOUND Package angular-massages not found
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular-messages --save
+bower angular-messages#*    not-cached git://github.com/angular/bower-angular-messages.git#*
+bower angular-messages#*       resolve git://github.com/angular/bower-angular-messages.git#*
+bower angular-messages#*      download https://github.com/angular/bower-angular-messages/archive/v1.4.7.tar.gz
+bower angular-messages#*       extract archive.tar.gz
+bower angular-messages#*      resolved git://github.com/angular/bower-angular-messages.git#1.4.7
+bower angular-messages#~1.4.7  install angular-messages#1.4.7
+
+angular-messages#1.4.7 bower_components\angular-messages
++-- angular#1.4.7
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular-ul-grol --save
+bower                        ENOTFOUND Package angular-ul-grol not found
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular-ul-growl --save
+bower                        ENOTFOUND Package angular-ul-growl not found
+
+D:\MEUS SISTEMAS\ANGULAR\Primeiro>bower install angular-ui-growl --save
+bower angular-ui-growl#*    not-cached git://github.com/ctrix/angular-ui-growl.git#*
+bower angular-ui-growl#*       resolve git://github.com/ctrix/angular-ui-growl.git#*
+bower angular-ui-growl#*      download https://github.com/ctrix/angular-ui-growl/archive/0.0.1.tar.gz
+bower angular-ui-growl#*       extract archive.tar.gz
+bower angular-ui-growl#*  invalid-meta angular-ui-growl is missing "ignore" entry in bower.json
+bower angular-ui-growl#*      resolved git://github.com/ctrix/angular-ui-growl.git#0.0.1
+bower angular-ui-growl#~0.0.1  install angular-ui-growl#0.0.1
+
+angular-ui-growl#0.0.1 bower_components\angular-ui-growl
++-- angular#1.4.7

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px){
+    .teste-css{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .teste-css{
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .teste-css{
+        background-color: yellow;
+    }
+}
